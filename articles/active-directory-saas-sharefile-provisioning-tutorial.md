@@ -69,7 +69,7 @@ This section guides you through connecting your Azure AD to Citrix ShareFile use
 
     ![Citrix ShareFile Provisioning](./media/active-directory-saas-sharefile-provisioning-tutorial/sharefileazureprovisioning.png)
     
-5. Under the Admin Credentials section, perform the following steps:
+5) Under the Admin Credentials section, perform the following steps:
    
     a. In the **Citrix ShareFile Domain** textbox, enter the Citrix ShareFile tenant name like contoso.
 

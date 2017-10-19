@@ -69,7 +69,7 @@ This section guides you through connecting your Azure AD to FreshDesk user accou
 
     ![FreshDesk Provisioning](./media/active-directory-saas-freshdesk-provisioning-tutorial/freshdeskazureprovisioning.png)
     
-5. Under the Admin Credentials section, perform the following steps:
+5) Under the Admin Credentials section, perform the following steps:
    
     a. In the **FreshDesk Client Identifier** textbox, enter the FreshDesk API key.
 
