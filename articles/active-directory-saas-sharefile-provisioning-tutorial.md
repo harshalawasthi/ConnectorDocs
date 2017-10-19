@@ -123,4 +123,4 @@ For more information on how to read the Azure AD provisioning logs, see [Reporti
 
 * [Managing user account provisioning for Enterprise Apps](active-directory-enterprise-apps-manage-provisioning.md)
 * [What is application access and single sign-on with Azure Active Directory?](active-directory-appssoaccess-whatis.md)
-* [Configure Single Sign-on](active-directory-saas-citrix-gotomeeting-tutorial.md)
+* [Configure Single Sign-on](active-directory-saas-sharefile-tutorial.md)
