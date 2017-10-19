@@ -73,7 +73,7 @@ This section guides you through connecting your Azure AD to FreshDesk user accou
    
     a. In the **FreshDesk Client Identifier** textbox, enter the FreshDesk API key.
 
-        > [Tip] [How to find your API key](https://support.freshdesk.com/support/solutions/articles/215517-how-to-find-your-api-key)
+        > **Tip** [How to find your API key](https://support.freshdesk.com/support/solutions/articles/215517-how-to-find-your-api-key)
     
     b. In the **FreshDesk Domain** textbox, enter the FreshDesk tenant name like contoso.freshdesk.com
 

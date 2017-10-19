@@ -63,7 +63,7 @@ This section guides you through connecting your Azure AD to Citrix ShareFile use
 
 2) If you have already configured Citrix ShareFile for single sign-on, search for your instance of Citrix ShareFile using the search field. Otherwise, select **Add** and search for **Citrix** in the application gallery. Select **Citrix ShareFile** from the search results, and add it to your list of applications.
 
-3)	Select your instance of Citrix ShareFile, then select the **Provisioning** tab.
+3)	Select your instance of **Citrix ShareFile**, then select the **Provisioning** tab.
 
 4)	Set the **Provisioning Mode** to **Automatic**.
 
@@ -91,7 +91,7 @@ This section guides you through connecting your Azure AD to Citrix ShareFile use
 
 8) Click **Save**. 
 
-9) Under the Mappings section, select **Synchronize Azure Active Directory Users to ShareFile**.
+9) Under the Mappings section, select **Synchronize Azure Active Directory Users to Citrix ShareFile**.
 
 10) In the **Attribute Mappings** section, review the user attributes that will be synchronized from Azure AD to Citrix ShareFile. Note that the attributes selected as **Matching** properties will be used to match the user accounts in Citrix ShareFile for update operations. Select the Save button to commit any changes.
 
