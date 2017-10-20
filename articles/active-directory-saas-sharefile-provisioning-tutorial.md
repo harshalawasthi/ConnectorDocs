@@ -48,8 +48,10 @@ Before configuring and enabling the provisioning service, you will need to decid
 
 *	When assigning a user to Citrix ShareFile, you must select the **User** or **Group** role in the assignment dialog. The "Default Access" role does not work for provisioning.
 
+> [!NOTE]
+> As an added feature, the provisioning service supports default roles defined in Citrix ShareFile, they can be selected in the **Select Role** dialog. These roles will be visible in the Azure portal after the provisioning service is enabled.
 
-## Configuring user provisioning to Citirx ShareFile 
+## Configuring user provisioning to Citrix ShareFile 
 
 This section guides you through connecting your Azure AD to Citrix ShareFile user account provisioning API, and configuring the provisioning service to create, update and disable assigned user accounts in Citrix ShareFile based on user and group assignment in Azure AD.
 
@@ -93,7 +95,7 @@ This section guides you through connecting your Azure AD to Citrix ShareFile use
 
 9) Under the Mappings section, select **Synchronize Azure Active Directory Users to Citrix ShareFile**.
 
-10) In the **Attribute Mappings** section, review the user attributes that will be synchronized from Azure AD to Citrix ShareFile. Note that the attributes selected as **Matching** properties will be used to match the user accounts in Citrix ShareFile for update operations. Select the Save button to commit any changes.
+10) In the **Attribute Mappings** section, review the user attributes that will be synchronized from Azure AD to Citrix ShareFile. Note that the attributes selected as **Matching** properties will be used to match the user accounts in Citrix ShareFile for update operations. Select the **Save** button to commit any changes. See [Customizing User Provisioning Attribute Mappings](active-directory-saas-customizing-attribute-mappings.md) for more details.
 
 11) To enable the Azure AD provisioning service for Citrix ShareFile, change the **Provisioning Status** to **On** in the **Settings** section
 
@@ -101,7 +103,7 @@ This section guides you through connecting your Azure AD to Citrix ShareFile use
 
 This starts the initial synchronization of any users and/or groups assigned to Citrix ShareFile in the Users and Groups section. The initial takes longer to perform than subsequent syncs, which occur approximately every 20 minutes as long as the service is running. You can use the **Synchronization Details** section to monitor progress and follow links to provisioning activity reports, which describe all actions performed by the provisioning service on your Citrix ShareFile app.
 
-## [Optional] Configuring group object provisioning to Citrix ShareFile 
+## Optional: Configuring group object provisioning to Citrix ShareFile 
 
 Optionally, you can enable the provisioning of group objects from Azure AD to Citrix ShareFile. This is different from "assigning groups of users", in that the actual group object in addition to its members will be replicated from Azure AD to Citrix ShareFile. For example, if you have a group named "My Group" in Azure AD, an identitical group named "My Group" will be created inside Citrix ShareFile.
 
