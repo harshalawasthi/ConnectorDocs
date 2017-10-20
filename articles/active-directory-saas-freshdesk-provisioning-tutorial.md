@@ -32,7 +32,8 @@ The scenario outlined in this tutorial assumes that you already have the followi
 *   A FreshDesk tenant with the [BLOSSOM plan](https://freshdesk.com/pricing) or better enabled 
 *   A user account in FreshDesk with Admin permissions 
 
-Note: The Azure AD provisioning integration relies on the [FreshDesk Rest V2 API](https://developers.freshdesk.com/api/) which is available to FreshDesk.
+> [!NOTE] 
+> The Azure AD provisioning integration relies on the [FreshDesk Rest V2 API](https://developers.freshdesk.com/api/) which is available to FreshDesk.
 
 ## Assigning users to FreshDesk
 
@@ -74,7 +75,7 @@ This section guides you through connecting your Azure AD to FreshDesk user accou
    
     a. In the **FreshDesk Client Identifier** textbox, enter the FreshDesk API key.
 
-        > **Tip** [How to find your API key](https://support.freshdesk.com/support/solutions/articles/215517-how-to-find-your-api-key)
+        > [!TIP] [How to find your API key](https://support.freshdesk.com/support/solutions/articles/215517-how-to-find-your-api-key)
     
     b. In the **FreshDesk Domain** textbox, enter the FreshDesk tenant name like contoso.freshdesk.com
 
