@@ -69,7 +69,7 @@ This section guides you through connecting your Azure AD to Clarizen user accoun
 
 4)	Set the **Provisioning Mode** to **Automatic**.
 
-    ![Clarizen Provisioning](./media/active-directory-saas-clarizen-provisioning-tutorial/clarizenazureprovisioning.png)
+    ![Clarizen Provisioning](media/active-directory-saas-clarizen-provisioning-tutorial/clarizenazureprovisioning.png)
     
 5) Under the Admin Credentials section, perform the following steps:
    
