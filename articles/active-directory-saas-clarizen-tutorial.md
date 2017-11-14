@@ -22,7 +22,7 @@ ms.reviewer: asmalser
 
 # Tutorial: Configuring Clarizen for Automatic User Provisioning
 
-The objective of this tutorial is to show you the steps you need to perform in Clarizen and Azure AD to automatically provision and de-provision user accounts & groups from Azure AD to Clarizen.
+The objective of this tutorial is to show you the steps you need to perform in Clarizen and Azure AD to automatically provision and de-provision user accounts from Azure AD to Clarizen.
 
 ## Prerequisites
 
@@ -37,24 +37,21 @@ The scenario outlined in this tutorial assumes that you already have the followi
 
 ## Assigning users to Clarizen
 
-Azure Active Directory uses a concept called "assignments" to determine which users should receive access to selected apps. In the context of automatic user account provisioning, only the users and groups that have been "assigned" to an application in Azure AD will be synchronized. 
+Azure Active Directory uses a concept called "assignments" to determine which users should receive access to selected apps. In the context of automatic user account provisioning, only the users that have been "assigned" to an application in Azure AD will be synchronized. 
 
-Before configuring and enabling the provisioning service, you will need to decide what users and/or groups in Azure AD represent the users who need access to your Clarizen app. Once decided, you can assign these users to your Clarizen app by following the instructions here:
+Before configuring and enabling the provisioning service, you will need to decide what users in Azure AD represent the users who need access to your Clarizen app. Once decided, you can assign these users to your Clarizen app by following the instructions here:
 
-[Assign a user or group to an enterprise app](active-directory-coreapps-assign-user-azure-portal.md)
+[Assign a user to an enterprise app](active-directory-coreapps-assign-user-azure-portal.md)
 
 ### Important tips for assigning users to Clarizen
 
-*	It is recommended that a single Azure AD user be assigned to Clarizen to test the provisioning configuration. Additional users and/or groups may be assigned later.
+*	It is recommended that a single Azure AD user be assigned to Clarizen to test the provisioning configuration. Additional users may be assigned later.
 
-*	When assigning a user to Clarizen, you must select the **User** or **Group** role in the assignment dialog. The "Default Access" role does not work for provisioning.
-
-> [!NOTE] 
-> As an added feature, the provisioning service supports Agent & Customer roles defined in Clarizen, they can be selected in the **Select Role** dialog. These roles will be visible in the Azure portal after the provisioning service is enabled.
+*	When assigning a user to Clarizen, you must select the **User** role in the assignment dialog. The "Default Access" role does not work for provisioning.
 
 ## Configuring user provisioning to Clarizen 
 
-This section guides you through connecting your Azure AD to Clarizen user account provisioning API, and configuring the provisioning service to create, update and disable assigned user accounts in Clarizen based on user and group assignment in Azure AD.
+This section guides you through connecting your Azure AD to Clarizen user account provisioning API, and configuring the provisioning service to create, update and disable assigned user accounts in Clarizen based on user assignment in Azure AD.
 
 > [!TIP]
 > You may also choose to enabled SAML-based Single Sign-On for Clarizen, following the instructions provided in [Azure portal](https://portal.azure.com). Single sign-on can be configured independently of automatic provisioning, though these two features compliment each other.
@@ -91,19 +88,7 @@ This section guides you through connecting your Azure AD to Clarizen user accoun
 
 12) Click **Save**. 
 
-This starts the initial synchronization of any users and/or groups assigned to Clarizen in the Users and Groups section. The initial takes longer to perform than subsequent syncs, which occur approximately every 20 minutes as long as the service is running. You can use the **Synchronization Details** section to monitor progress and follow links to provisioning activity reports, which describe all actions performed by the provisioning service on your Clarizen app.
-
-## Configuring group object provisioning to Clarizen 
-
-Provisioning of group objects from Azure AD to Clarizen. This is different from "assigning groups of users", in that the actual group object in addition to its members will be replicated from Azure AD to Clarizen. For example, if you have a group named "My Group" in Azure AD, an identitical group named "My Group" will be created inside Clarizen.
-
-### Attribute Mappings of group objects:
-
-1) In the **Attribute Mappings** section, review the group attributes that will be synchronized from Azure AD to Clarizen. Note that the attributes selected as **Matching** properties will be used to match the groups in Clarizen for update operations. 
-
-2) Click **Save**.
-
-This result in any group objects assigned to Clarizen in the **Users and Groups** section being fully synchronized from Azure AD to Clarizen. You can use the **Synchronization Details** section to monitor progress and follow links to provisioning activity reports, which describe all actions performed by the provisioning service on your Clarizen app.
+This starts the initial synchronization of any users assigned to Clarizen in the Users section. The initial takes longer to perform than subsequent syncs, which occur approximately every 20 minutes as long as the service is running. You can use the **Synchronization Details** section to monitor progress and follow links to provisioning activity reports, which describe all actions performed by the provisioning service on your Clarizen app.
 
 For more information on how to read the Azure AD provisioning logs, see [Reporting on automatic user account provisioning](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-saas-provisioning-reporting).
 
