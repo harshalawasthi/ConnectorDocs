@@ -1,4 +1,4 @@
-![](active-directory-saas-asana-provisioning-tutorial\asanaazureprovisioning.png)---
+---
 
 title: 'Tutorial: Configuring Asana for automatic user provisioning with Azure Active Directory | Microsoft Docs'
 description: Learn how to configure Azure Active Directory to automatically provision and de-provision user accounts to Asana.
