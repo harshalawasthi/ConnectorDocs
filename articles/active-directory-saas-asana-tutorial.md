@@ -4,18 +4,18 @@ title: 'Tutorial: Configuring Asana for automatic user provisioning with Azure A
 description: Learn how to configure Azure Active Directory to automatically provision and de-provision user accounts to Asana.
 services: active-directory
 documentationcenter: ''
-author: v-sanjc
-writer: v-sanjc
-manager: v-haawas
+author: asmalser-msft
+writer: asmalser-msft
+manager: sakula
 
-ms.assetid: aa5f8b72-b80c-40c0-8fb3-a2ba56fea52b
+ms.assetid: 0b38ee73-168b-42cb-bd8b-9c5e5126d648
 ms.service: active-directory
 ms.workload: identity
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
 ms.date: 10/19/2017
-ms.author: v-sanjc
+ms.author: asmalser-msft
 ms.reviewer: asmalser
 
 ---
@@ -29,11 +29,11 @@ The objective of this tutorial is to show you the steps you need to perform in A
 The scenario outlined in this tutorial assumes that you already have the following items:
 
 *   An Azure Active Active directory tenant
-*   An Asana tenant with the [Enterprise](https://www.asana.com/pricing) or better enabled 
+*   An Asana tenant with the [Premium](https://www.asana.com/pricing) or better enabled 
 *   A user account in Asana with Admin permissions 
 
 > [!NOTE] 
-> The Azure AD provisioning integration relies on the [Asana API](https://app.asana.com/api/2.0/scim) which is available to Asana.
+> The Azure AD provisioning integration relies on the [Asana API](https://app.asana.com/api/1.0/users) which is available to Asana.
 
 ## Assigning users to Asana
 
@@ -46,8 +46,6 @@ Before configuring and enabling the provisioning service, you will need to decid
 ### Important tips for assigning users to Asana
 
 *	It is recommended that a single Azure AD user be assigned to Asana to test the provisioning configuration. Additional users may be assigned later.
-
-*	When assigning a user to Asana, you must select the **User** role in the assignment dialog. The "Default Access" role does not work for provisioning.
 
 ## Configuring user provisioning to Asana 
 
@@ -67,7 +65,7 @@ This section guides you through connecting your Azure AD to Asana user account p
 4)	Set the **Provisioning Mode** to **Automatic**.
 
     ![Asana Provisioning](media/active-directory-saas-asana-provisioning-tutorial/asanaazureprovisioning.png)
-    
+![](active-directory-saas-asana-provisioning-tutorial\asanaazureprovisioning.png)    
 5) Under the Admin Credentials section, perform the following steps:
    
     a. In the **Secret Token** textbox, enter the Asana secret token.
