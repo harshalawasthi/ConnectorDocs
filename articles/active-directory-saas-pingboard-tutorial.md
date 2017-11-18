@@ -64,15 +64,15 @@ This section guides you through connecting your Azure AD to Pingboard user accou
 
 4)	Set the **Provisioning Mode** to **Automatic**.
 
-    ![Pingboard Provisioning](media/active-directory-saas-pingboard-provisioning-tutorial/Pingboardazureprovisioning.png)
-![](active-directory-saas-pingboard-provisioning-tutorial\pingboardazureprovisioning.png)    
+    ![Pingboard Provisioning](media/active-directory-saas-pingboard-provisioning-tutorial/pingboardazureprovisioning.png)
+    
 5) Under the Admin Credentials section, perform the following steps:
    
     a. In the **Tenant URL** textbox, enter the URL used to communicate with Pingboard services.
    
     b. In the **Secret Token** textbox, enter the Pingboard secret token.
     > [!TIP]
-    > [How to get client secret](https://pingboard.docs.apiary.io/#reference/company/get-company/client-credentials-flow).
+    > [How to get client secret](https://pingboard.docs.apiary.io/#reference/authentication/client-credentials-flow/client-credentials-flow).
 
 6) In the Azure portal, click **Test Connection** to ensure Azure AD can connect to your Pingboard app. If the connection fails, ensure your Pingboard account has Admin permissions and try the **"Test Connection"** step again.
 
