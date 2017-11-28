@@ -68,7 +68,7 @@ This section guides you through connecting your Azure AD to Asana user account p
 ![](active-directory-saas-asana-provisioning-tutorial\asanaazureprovisioning.png)    
 5) Under the Admin Credentials section, perform the following steps:
    
-    a. In the **Secret Token** textbox, enter the Asana secret token.
+    a. Generate the OAuth access token using Authorization Code Grant flow in below instructions and enter it in the **Secret Token** textbox.
     > [!TIP]
     > [How to get client secret](https://asana.com/developers/documentation/getting-started/auth#oauth).
 
