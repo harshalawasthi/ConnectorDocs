@@ -4,9 +4,9 @@ title: 'Tutorial: Configuring Clarizen for automatic user provisioning with Azur
 description: Learn how to configure Azure Active Directory to automatically provision and de-provision user accounts to Clarizen.
 services: active-directory
 documentationcenter: ''
-author: v-sanjc
-writer: v-sanjc
-manager: v-haawas
+author: asmalser-msft
+writer: asmalser-msft
+manager: sakula
 
 ms.assetid: aa5f8b72-b80c-40c0-8fb3-a2ba56fea52b
 ms.service: active-directory
@@ -33,7 +33,7 @@ The scenario outlined in this tutorial assumes that you already have the followi
 *   A user account in Clarizen with Admin permissions 
 
 > [!NOTE] 
-> The Azure AD provisioning integration relies on the [Clarizen API](https://developers.Clarizen.com/api/) which is available to Clarizen.
+> The Azure AD provisioning integration relies on the [Clarizen API](https://api.clarizen.com/V2.0/services/) which is available to Clarizen.
 
 ## Assigning users to Clarizen
 
@@ -71,7 +71,9 @@ This section guides you through connecting your Azure AD to Clarizen user accoun
 5) Under the Admin Credentials section, perform the following steps:
    
     a. In the **Domain** textbox, enter the domain name.
+    
     b. In the **Admin User Name** textbox, enter the user name. This will be used by Microsoft Azure AD to synchronize User Accounts. This account must have admin privileges for the application.
+    
     c. In the **Admin Password** textbox enter the password for Admin user.
 
 6) In the Azure portal, click **Test Connection** to ensure Azure AD can connect to your Clarizen app. If the connection fails, ensure your Clarizen account has Admin permissions and try the **"Test Connection"** step again.
