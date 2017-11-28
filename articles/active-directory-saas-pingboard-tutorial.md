@@ -70,7 +70,7 @@ This section guides you through connecting your Azure AD to Pingboard user accou
    
     a. In the **Tenant URL** textbox, enter the URL used to communicate with Pingboard services.
    
-    b. In the **Secret Token** textbox, enter the Pingboard secret token.
+    b. Generate the OAuth access token using Client credentials flow in below instructions and enter it in the **Secret Token** textbox. 
     > [!TIP]
     > [How to get client secret](https://pingboard.docs.apiary.io/#reference/authentication/client-credentials-flow/client-credentials-flow).
 
