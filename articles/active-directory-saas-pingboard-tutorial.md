@@ -29,11 +29,11 @@ The objective of this tutorial is to show you the steps you need to perform in P
 The scenario outlined in this tutorial assumes that you already have the following items:
 
 *   An Azure Active Active directory tenant
-*   An Pingboard tenant with the [Pro Account](https://pingboard.com/pricing) or better enabled 
+*   A Pingboard company [Pro Account](https://pingboard.com/pricing) 
 *   A user account in Pingboard with Admin permissions 
 
 > [!NOTE] 
-> The Azure AD provisioning integration relies on the [Pingboard API](https://app.pingboard.com/api/v2/users) which is available to Pingboard.
+> The Azure AD provisioning integration relies on the Pingboard API(`https://your_domain.pingboard.com/scim/v2`) which is available to your account.
 
 ## Assigning users to Pingboard
 
@@ -68,11 +68,11 @@ This section guides you through connecting your Azure AD to Pingboard user accou
     
 5) Under the Admin Credentials section, perform the following steps:
    
-    a. In the **Tenant URL** textbox, enter the URL used to communicate with Pingboard services.
-   
-    b. Generate the OAuth access token using Client credentials flow in below instructions and enter it in the **Secret Token** textbox. 
-    > [!TIP]
-    > [How to get client secret](https://pingboard.docs.apiary.io/#reference/authentication/client-credentials-flow/client-credentials-flow).
+    * In the **Tenant URL** textbox, enter `https://your_domain.pingboard.com/scim/v2`
+    * Login to [Pingboard](https://pingboard.com/) using admin account.
+    * Click on Add-Ons > Integrations > Azure Active Directory.
+    * Click on Configure tab and select **Enable user provisioning from Azure**.
+    * Copy the **OAuth Bearer Token** field and enter into **Secret Token** textbox.
 
 6) In the Azure portal, click **Test Connection** to ensure Azure AD can connect to your Pingboard app. If the connection fails, ensure your Pingboard account has Admin permissions and try the **"Test Connection"** step again.
 
