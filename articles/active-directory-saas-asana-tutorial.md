@@ -33,7 +33,7 @@ The scenario outlined in this tutorial assumes that you already have the followi
 *   A user account in Asana with Admin permissions 
 
 > [!NOTE] 
-> The Azure AD provisioning integration relies on the [Asana API](https://app.asana.com/api/1.0/users) which is available to Asana.
+> The Azure AD provisioning integration relies on the [Asana API](https://app.asana.com/api/1.0/scim/Users) which is available to Asana.
 
 ## Assigning users to Asana
 
@@ -66,11 +66,13 @@ This section guides you through connecting your Azure AD to Asana user account p
 
     ![Asana Provisioning](media/active-directory-saas-asana-provisioning-tutorial/asanaazureprovisioning.png)
 ![](active-directory-saas-asana-provisioning-tutorial\asanaazureprovisioning.png)    
-5) Under the Admin Credentials section, perform the following steps:
+5) Under the Admin Credentials section, follow below instructions to generate the token and enter it in the **Secret Token** textbox.
    
-    a. Generate the OAuth access token using Authorization Code Grant flow in below instructions and enter it in the **Secret Token** textbox.
-    > [!TIP]
-    > [How to get client secret](https://asana.com/developers/documentation/getting-started/auth#oauth).
+    * Login to [Asana](https://app.asana.com) using admin account
+    * Click the profile photo from the top bar and select current organization-name Settings
+    * Navigate to the Service Accounts tab
+    * Click Add Service Account
+    * Update Name, About and profile photo as needed, copy **Token** and click on Save Changes
 
 6) In the Azure portal, click **Test Connection** to ensure Azure AD can connect to your Asana app. If the connection fails, ensure your Asana account has Admin permissions and try the **"Test Connection"** step again.
 
