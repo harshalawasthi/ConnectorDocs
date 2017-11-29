@@ -70,11 +70,11 @@ This section guides you through connecting your Azure AD to Clarizen user accoun
     
 5) Under the Admin Credentials section, perform the following steps:
    
-    a. In the **Domain** textbox, enter the domain name.
+    a. In the **Domain** textbox, enter the clarizen domain name.
     
-    b. In the **Admin User Name** textbox, enter the user name. This will be used by Microsoft Azure AD to synchronize User Accounts. This account must have admin privileges for the application.
+    b. In the **Admin User Name** textbox, enter the user name of admin user. This will be used by Microsoft Azure AD to synchronize User Accounts. This account must have admin privileges for the application.
     
-    c. In the **Admin Password** textbox enter the password for Admin user.
+    c. In the **Admin Password** textbox enter the password of admin user.
 
 6) In the Azure portal, click **Test Connection** to ensure Azure AD can connect to your Clarizen app. If the connection fails, ensure your Clarizen account has Admin permissions and try the **"Test Connection"** step again.
 
