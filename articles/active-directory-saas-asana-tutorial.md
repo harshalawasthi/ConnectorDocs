@@ -29,7 +29,7 @@ The objective of this tutorial is to show you the steps you need to perform in A
 The scenario outlined in this tutorial assumes that you already have the following items:
 
 *   An Azure Active Active directory tenant
-*   An Asana tenant with the [Premium](https://www.asana.com/pricing) or better enabled 
+*   An Asana tenant with [Enterprise](https://www.asana.com/pricing) plan or better enabled 
 *   A user account in Asana with Admin permissions 
 
 > [!NOTE] 
