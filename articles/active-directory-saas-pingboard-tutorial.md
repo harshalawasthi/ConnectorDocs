@@ -29,7 +29,7 @@ The objective of this tutorial is to show you the steps you need to perform in P
 The scenario outlined in this tutorial assumes that you already have the following items:
 
 *   An Azure Active Active directory tenant
-*   A Pingboard company [Pro Account](https://pingboard.com/pricing) 
+*   A Pingboard tenant [Pro Account](https://pingboard.com/pricing) 
 *   A user account in Pingboard with Admin permissions 
 
 > [!NOTE] 
